@@ -1,0 +1,12 @@
+Source: ros-indigo-pr2-power-board
+Section: misc
+Priority: extra
+Maintainer: Devon Ash <dash@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), liblog4cxx10-dev, ros-indigo-catkin, ros-indigo-diagnostic-msgs, ros-indigo-diagnostic-updater, ros-indigo-message-generation, ros-indigo-pr2-msgs, ros-indigo-roscpp
+Homepage: http://www.ros.org/wiki/pr2_power_board
+Standards-Version: 3.9.2
+
+Package: ros-indigo-pr2-power-board
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, liblog4cxx10-dev, ros-indigo-diagnostic-msgs, ros-indigo-diagnostic-updater, ros-indigo-message-runtime, ros-indigo-pr2-msgs, ros-indigo-roscpp, ros-indigo-rospy
+Description: This provides a ROS node for the PR2 Power Board.
