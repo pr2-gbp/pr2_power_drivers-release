@@ -1,0 +1,21 @@
+ros-lunar-pr2-power-drivers (1.1.6-0stretch) stretch; urgency=high
+
+  * change maintainer to ROS orphaned package maintaner
+  * Contributors: Kei Okada
+
+ -- ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>  Sun, 11 Feb 2018 00:00:00 -0000
+
+ros-lunar-pr2-power-drivers (1.1.5-0stretch) stretch; urgency=high
+
+
+
+ -- ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>  Tue, 13 Jan 2015 00:00:00 -0000
+
+ros-lunar-pr2-power-drivers (1.1.3-0stretch) stretch; urgency=high
+
+  * Added indigo devel
+  * Contributors: dash
+
+ -- ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>  Mon, 12 Jan 2015 00:00:00 -0000
+
+
