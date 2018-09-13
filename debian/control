@@ -1,0 +1,12 @@
+Source: ros-melodic-ocean-battery-driver
+Section: misc
+Priority: extra
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Build-Depends: debhelper (>= 9.0.0), liblog4cxx-dev, ros-melodic-catkin, ros-melodic-diagnostic-msgs, ros-melodic-diagnostic-updater, ros-melodic-pr2-msgs, ros-melodic-roscpp
+Homepage: http://www.ros.org/wiki/ocean_battery_driver
+Standards-Version: 3.9.2
+
+Package: ros-melodic-ocean-battery-driver
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, liblog4cxx-dev, ros-melodic-diagnostic-msgs, ros-melodic-diagnostic-updater, ros-melodic-pr2-msgs, ros-melodic-roscpp
+Description: This is an interface to the Ocean Server Technology Intelligent Battery and Power System.
