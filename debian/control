@@ -1,0 +1,12 @@
+Source: ros-lunar-ocean-battery-driver
+Section: misc
+Priority: extra
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Build-Depends: debhelper (>= 9.0.0), liblog4cxx10-dev, ros-lunar-catkin, ros-lunar-diagnostic-msgs, ros-lunar-diagnostic-updater, ros-lunar-pr2-msgs, ros-lunar-roscpp
+Homepage: http://www.ros.org/wiki/ocean_battery_driver
+Standards-Version: 3.9.2
+
+Package: ros-lunar-ocean-battery-driver
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, liblog4cxx10-dev, ros-lunar-diagnostic-msgs, ros-lunar-diagnostic-updater, ros-lunar-pr2-msgs, ros-lunar-roscpp
+Description: This is an interface to the Ocean Server Technology Intelligent Battery and Power System.
