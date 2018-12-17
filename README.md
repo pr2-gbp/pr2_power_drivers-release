@@ -1,3 +1,30 @@
+## pr2_power_drivers (kinetic) - 1.1.7-0
+
+The packages in the `pr2_power_drivers` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release -y pr2_power_drivers --track kinetic --rosdistro kinetic` on `Mon, 17 Dec 2018 02:24:41 -0000`
+
+These packages were released:
+- `ocean_battery_driver`
+- `power_monitor`
+- `pr2_power_board`
+- `pr2_power_drivers`
+
+Version of package(s) in repository `pr2_power_drivers`:
+
+- upstream repository: https://github.com/pr2/pr2_power_drivers.git
+- release repository: https://github.com/pr2-gbp/pr2_power_drivers-release.git
+- rosdistro version: `1.1.6-0`
+- old version: `1.1.6-0`
+- new version: `1.1.7-0`
+
+Versions of tools used:
+
+- bloom version: `0.6.6`
+- catkin_pkg version: `0.4.8`
+- rosdep version: `0.12.2`
+- rosdistro version: `0.6.9`
+- vcstools version: `0.1.40`
+
+
 ## pr2_power_drivers (melodic) - 1.1.6-0
 
 The packages in the `pr2_power_drivers` repository were released into the `melodic` distro by running `/usr/bin/bloom-release --edit -y pr2_power_drivers --rosdistro melodic --track melodic` on `Thu, 13 Sep 2018 02:26:19 -0000`
