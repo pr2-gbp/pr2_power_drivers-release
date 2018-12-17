@@ -2,6 +2,9 @@
 Changelog for package power_monitor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.1.7 (2018-12-17)
+------------------
+
 1.1.6 (2018-02-11)
 ------------------
 * change maintainer to ROS orphaned package maintaner
