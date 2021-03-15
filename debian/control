@@ -1,0 +1,12 @@
+Source: ros-noetic-pr2-power-drivers
+Section: misc
+Priority: optional
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin
+Homepage: http://ros.org/wiki/pr2_power_drivers
+Standards-Version: 3.9.2
+
+Package: ros-noetic-pr2-power-drivers
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-ocean-battery-driver, ros-noetic-power-monitor, ros-noetic-pr2-power-board
+Description: Power drivers for the PR2 robot.
