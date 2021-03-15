@@ -1,0 +1,38 @@
+ros-noetic-ocean-battery-driver (1.1.8-1focal) focal; urgency=high
+
+
+
+ -- ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>  Sun, 14 Mar 2021 15:00:00 -0000
+
+ros-noetic-ocean-battery-driver (1.1.7-1focal) focal; urgency=high
+
+  * Merge pull request #71 <https://github.com/PR2/pr2_power_drivers/issues/71> from Jntzko/last_battery_update
+    Initialize last battery update time with 0
+  * Initialize last battery update time with 0
+    in kinetic initializing a ros time with -1 throws the following error:
+    "Time is out of dual 32-bit range"
+    Change it to time(0) keeps the previous behaviour, but uses time 0 as initial value.
+  * Contributors: Yannick Jonetzko
+
+ -- ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>  Sun, 16 Dec 2018 15:00:00 -0000
+
+ros-noetic-ocean-battery-driver (1.1.6-1focal) focal; urgency=high
+
+  * change maintainer to ROS orphaned package maintaner
+  * Contributors: Kei Okada
+
+ -- ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>  Sat, 10 Feb 2018 15:00:00 -0000
+
+ros-noetic-ocean-battery-driver (1.1.5-1focal) focal; urgency=high
+
+
+
+ -- ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>  Mon, 12 Jan 2015 15:00:00 -0000
+
+ros-noetic-ocean-battery-driver (1.1.3-1focal) focal; urgency=high
+
+
+
+ -- ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>  Sun, 11 Jan 2015 15:00:00 -0000
+
+
