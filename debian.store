@@ -1,1 +1,1 @@
-{"trim": "", "base": "d400b08", "trimbase": "", "parent": "debian/noetic/pr2_power_board", "previous": "11eea13"}
+{"base": "48a2668", "parent": "debian/noetic/pr2_power_board", "previous": "5b93441", "trim": "", "trimbase": ""}
