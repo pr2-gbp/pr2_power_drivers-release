@@ -1,6 +1,6 @@
 <package>
   <name>ocean_battery_driver</name>
-  <version>1.1.8</version>
+  <version>1.1.9</version>
   <description>This is an interface to the Ocean Server Technology Intelligent Battery and Power System.</description>
   <maintainer email="ros-orphaned-packages@googlegroups.com">ROS Orphaned Package Maintainers</maintainer>
 
@@ -18,6 +18,7 @@
   <build_depend>diagnostic_updater</build_depend>
   <build_depend>diagnostic_msgs</build_depend>
   <build_depend>log4cxx</build_depend>
+  <build_depend>libboost-program-options</build_depend>
 
   <run_depend>roscpp</run_depend>
   <run_depend>pr2_msgs</run_depend>
