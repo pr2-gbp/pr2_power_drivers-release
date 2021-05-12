@@ -1,6 +1,6 @@
 <package>
   <name>pr2_power_board</name>
-  <version>1.1.8</version>
+  <version>1.1.9</version>
   <description>This provides a ROS node for the PR2 Power Board.</description>
   <maintainer email="ros-orphaned-packages@googlegroups.com">ROS Orphaned Package Maintainers</maintainer>
 
@@ -19,6 +19,7 @@
   <build_depend>diagnostic_msgs</build_depend>
   <build_depend>pr2_msgs</build_depend>
   <build_depend>log4cxx</build_depend>
+  <build_depend>libboost-program-options</build_depend>
 
   <run_depend>message_runtime</run_depend>
   <run_depend>roscpp</run_depend>
