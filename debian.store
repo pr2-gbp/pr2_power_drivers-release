@@ -1,1 +1,1 @@
-{"trim": "", "base": "e61bae1", "trimbase": "", "parent": "debian/noetic/power_monitor", "previous": "0e30eb8"}
+{"base": "e4ced62", "parent": "debian/noetic/power_monitor", "previous": "f41bb2d", "trim": "", "trimbase": ""}
