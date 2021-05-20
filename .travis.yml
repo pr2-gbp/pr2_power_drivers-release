@@ -1,6 +1,7 @@
 
 # this is .traivs.yml written by ./create_travis_settings.py
 
+
 # https://github.com/ros-infrastructure/ros_buildfarm/blob/master/doc/jobs/devel_jobs.rst
 # https://github.com/ros-infrastructure/ros_buildfarm/blob/master/doc/jobs/prerelease_jobs.rst
 # while this doesn't require sudo we don't want to run within a Docker container
@@ -15,7 +16,6 @@ env:
   matrix:
     - CHECK_PYTHON3_COMPILE=true
     #- ROS_DISTRO_NAME=indigo  OS_NAME=ubuntu OS_CODE_NAME=trusty ARCH=amd64 INDEX_URL=https://raw.githubusercontent.com/ros-infrastructure/ros_buildfarm_config/6a93d17/index.yaml
-    - ROS_DISTRO_NAME=kinetic OS_NAME=ubuntu OS_CODE_NAME=xenial ARCH=amd64
     - ROS_DISTRO_NAME=melodic OS_NAME=ubuntu OS_CODE_NAME=bionic ARCH=amd64
     - ROS_DISTRO_NAME=noetic  OS_NAME=ubuntu OS_CODE_NAME=focal  ARCH=amd64
 # matrix:
