@@ -2,6 +2,11 @@
 Changelog for package ocean_battery_driver
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.1.10 (2021-05-20)
+-------------------
+* fixes for boost dependencies
+* Contributors: Dave Feil-Seifer
+
 1.1.9 (2021-05-12)
 ------------------
 * added boost_program_options as build dependency
