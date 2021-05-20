@@ -1,1 +1,1 @@
-{"base": "ccd2c8a", "parent": "debian/noetic/pr2_power_drivers", "previous": "18b5cae", "trim": "", "trimbase": ""}
+{"trim": "", "base": "bf99365", "trimbase": "", "parent": "debian/noetic/pr2_power_drivers", "previous": "d30de20"}
