@@ -1,1 +1,1 @@
-{"base": "494cabe", "parent": "debian/noetic/ocean_battery_driver", "previous": "05fe00e", "trim": "", "trimbase": ""}
+{"trim": "", "base": "a1b7bb9", "trimbase": "", "parent": "debian/noetic/ocean_battery_driver", "previous": "477557c"}
